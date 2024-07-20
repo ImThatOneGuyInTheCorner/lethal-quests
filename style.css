@@ -1,0 +1,27 @@
+body {
+    background: linear-gradient(to right, #FF4F00 0%, #D30068 50%, #600CAC 100%);
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+#button {
+    background-color: #ffffff;
+    width: 15vw;
+    height: 8vh;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    border-radius: 15px;
+    border-color: black;
+    border-width: 5px;
+    border-style: solid;
+    cursor: pointer;
+}
+p {
+    font-size: 1.5em;
+    font-weight: bold;
+}
