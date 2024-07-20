@@ -11,7 +11,7 @@ function questLoad() {
         "No 2-handed items",
         "Can't use computer",
         "No bought items",
-        "Cant use tp, must die if someone tps them",
+        "Cant use tp, must kys if someone tps you",
         "Has to use inverse",
         "Buddy system",
         "Stalk a player from a distance",
