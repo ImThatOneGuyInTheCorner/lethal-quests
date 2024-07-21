@@ -1,5 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap');
+
+* {
+    box-sizing: border-box;
+    color: #ff0000;
+    font-family: "Pixelify Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
 body {
-    background: linear-gradient(to right, #FF4F00 0%, #D30068 50%, #600CAC 100%);
+    /* background: linear-gradient(to right, #AD009F 0%, #3515B0 50%, #086FA1 100%); */
+    background-color: #000000;
     width: 100vw;
     height: 100vh;
     display: flex;
@@ -9,28 +19,70 @@ body {
     overflow: hidden;
 }
 #button {
-    background-color: #ffffff;
+    background-color: #000000;
     width: 15vw;
     height: 8vh;
     text-align: center;
     display: flex;
     justify-content: center;
-    border-radius: 15px 15px 0px 0px;
-    border-bottom-color: rgb(215, 215, 215);
-    border-bottom-width: 2px;
-    border-bottom-style: solid;
+    border-radius: 5px;
+    border-color: #ff0000;
+    border-width: 4px;
+    border-style: solid;
     cursor: pointer;
+    margin-bottom: 5vh;
 }
 p {
     font-size: 1.5em;
     font-weight: bold;
 }
-.questCont {
-    background-color: #ffffff;
-    width: 50vw;
+#questCont {
+    background-color: #000000;
+    width: -moz-fit-content;
+    width: fit-content;
     height: 28vh;
     display: flex;
-    justify-content: center;
+    justify-content: start;
     align-items: center;
-    border-radius: 15px;
+    border-radius: 5px;
+    border-color: #ff0000;
+    border-width: 4px;
+    border-style: solid;
+    overflow: hidden;
+}
+
+#icon {
+    height: 128px;
+    width: 128px;
+    margin-left: 2vw;
+    /* background-image: url(icon/Placeholder.png); */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* border-color: #ff0000;
+    border-width: 4px;
+    border-style: solid;
+    background-color: #ff0000; */
+}
+#classCont {
+    display: flex;
+    flex-direction: column;
+    margin: 0px 2vw;
+}
+h1, h2 {
+    margin: 6px;
+}
+h1 {
+    font-size: 300%;
+}
+#back {
+    position: absolute;
+    left: 0px;
+    width: 100vw;
+    height: 200vw;
+    z-index: -1;
+    background-image: url(icon/back.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
 }
